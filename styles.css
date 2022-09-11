@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(223, 220, 220);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(240, 240, 240);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 85);
+}
+
+.title {
+    padding: 20px;
+    background-color: rgb(96, 96, 209);
+    border-radius: 10px;
+    color: rgb(244, 244, 244);
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 36px;
+}
+
+.product-text {
+    padding-right: 10px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.product-image {
+    max-width: 100%;
+    flex-basis: 40%;
+    padding-right: 20px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 36px;
+}
+
+.author-quote {
+    padding-left: 10px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.author img {
+    padding-left: 20px;
+}
+
+h3 {
+    margin-left: 70px;
+}
+
+form li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+form ul li label {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+form ul li input {
+    float: left;
+    margin-bottom: 10px;
+}
+
+[type = "submit"] {
+    clear: left;
+    margin: 20px 0 0 230px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

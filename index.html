@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js" defer></script>
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header class="title">
+      <h1>Personal Development eBook</h1>
+    </header>
+
+    <div class="product">
+      <div class="product-text">
+        <h2>Free eBook on Personal Development</h2>
+        <p>How to Master Any Area of Your Life in 30 days</p>
+      </div>
+      <div>
+        <img src="./achieve.jpg" class="product-image" height="350px" />
+      </div>
+    </div>
+
+    <div class="author">
+      <div>
+        <img src="./author.jpg" class="author-picture" height="350px" />
+      </div>
+
+      <div class="author-quote">
+        <h2>It all starts by taking action</h2>
+        <p>
+          Anything that you have been putting off ends today. You just need to
+          start taking action.
+        </p>
+        <p>- John Smith, author of eBook</p>
+      </div>
+    </div>
+
+    <div>
+      <h3>Get your free eBook today!</h3>
+      <form name="registration" onSubmit="return formValidation()">
+        <ul>
+          <li><label for="username">Your Name:</label></li>
+          <li><input type="text" name="username" size="50" /></li>
+          <li><label for="email">Your Email:</label></li>
+          <li><input type="text" name="email" size="50" /></li>
+          <li><input type="submit" name="submit" value="Get Free eBook!" /></li>
+        </ul>
+      </form>
+    </div>
+  </body>
+</html>
